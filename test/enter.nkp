@@ -1,0 +1,35 @@
+func:->
+{
+/*
+ statement2;
+ statement3;
+ statement4;
+*/
+}
+
+enter:->
+{
+	//Vars definition
+	Logical flag;
+	Logical logicalValue;
+	Number a;
+	Number b;
+	Number miNumero1;
+
+	set logicalValue FALSE;
+	set flag TRUE;
+	puts "PrintingLogicalValues";
+	puts ntol $flag;
+	puts $logicalValue;
+
+	ser miNumero1 10; 
+	set a 20;
+	set b 30;
+	puts $miNumero1;
+	puts $a;
+	// inc a;
+	// dec b;
+	puts $b;
+	//puts "Hola";
+	//func();
+}
